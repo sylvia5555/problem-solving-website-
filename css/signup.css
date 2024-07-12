@@ -1,0 +1,218 @@
+/* global variables */
+:root {
+    --blue-color: #007fff;
+    --blue-alt-color: #0d69d5;
+    --transparent-color: rgb(0 127 255 /70%);
+    --section-padding: 15px;
+}
+
+
+/* global rules */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+/* end global rules */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1;
+}
+
+.main h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 0px;
+}
+
+.main>p {
+    font-size: 16px;
+    color: #525252;
+}
+
+.main form input {
+    width: 100%;
+    height: 52px;
+    background-color: #f4f2ff;
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    margin-bottom: -20px;
+    padding: 0 33px;
+}
+
+.main form input::placeholder {
+    color: #1C1C1C;
+    font-size: 14px;
+}
+
+.main form i {
+    position: relative;
+    top: 38px;
+    left: 10px;
+    color: #1C1C1C;
+}
+
+.main form button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 16px;
+    background: linear-gradient(to right, var(--blue-color), var(--blue-alt-color));
+    margin: 30px auto 10px;
+    color: white;
+    font-weight: 600;
+    display: block;
+    box-shadow: 0px 2px 10px 0px rgb(0, 0, 0, 30%);
+    transition: 0.3s;
+}
+
+.main form button:hover {
+    transform: translateX(-5px);
+}
+
+.main .others {
+    width: 100%;
+    text-align: center;
+}
+
+.main .others h3 {
+    color: #525252;
+    margin: 12px 0;
+    position: relative;
+    font-size: 21px;
+}
+
+.main .others h3:before,
+.main .others h3:after {
+    content: '';
+    position: absolute;
+    width: 110px;
+    height: 1px;
+    top: 15px;
+    background-color: #F0EDFF;
+}
+
+.main .others h3:before {
+    right: 315px;
+}
+
+.main .others h3:after {
+    left: 315px;
+}
+
+.main .others h3 span {
+    color: #1C1C1C;
+    font-weight: bold;
+}
+
+.main .others p {
+    padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.main .others p.google {
+    border-bottom: 1px solid #F0EDFF;
+}
+
+.main .others p img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.additional {
+    width: 50%;
+}
+
+
+.additional .img {
+    width: 80%;
+    float: right;
+    position: relative;
+    margin-bottom: -20px;
+}
+
+
+.additional .img img {
+    max-width: 90%;
+    animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width:992px) {
+    .additional {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+    }
+}

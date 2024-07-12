@@ -1,0 +1,206 @@
+:root {
+    --blue-color: #007fff;
+    --blue-alt-color: #0d69d5;
+    --transparent-color: rgb(0 127 255 /70%);
+}
+/* Satrt box */
+.d-flex {
+    display: flex;
+}
+.align-c {
+    align-items: center;
+}
+.d-grid {
+    display: grid;
+}
+.gap-50 {
+    gap: 50px;
+}
+.gap-40 {
+    gap: 40px;
+}
+.gap-30 {
+    gap: 30px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-10 {
+    gap: 20px;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+.flex-1 {
+    flex: 1;
+}
+.flex-column {
+    flex-direction: column;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+.d-block {
+    display: block;
+}
+/* End box */
+/* start padding + margin */
+.p-0 {
+    padding: 0px;
+}
+.p-5 {
+    padding: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-30 {
+    padding: 30px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mb-0 {
+    margin-bottom: 0px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.mr-30 {
+    margin-right: 30px;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+/* End padding + margin */
+/* Start color */
+.bg-white {
+    background-color: white;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.bg-ddd {
+    background-color: #ddd;
+}
+.c-white {
+    color: white;
+}
+.c-black {
+    color: black;
+}
+.c-blue {
+    color: var(--blue-color);
+}
+.c-ddd {
+    color: #ddd;
+}
+/* End color */
+/* Start position */
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+/* End position */
+/* Start font */
+.text-c {
+    text-align: center;
+}
+.fs-40 {
+    font-size: 40px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.w-full {
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.fw-bold {
+    font-weight: bold;
+}
+/* End font */
+/* Start border */
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.rad-15 {
+    border-radius: 15px;
+}
+.rad-half {
+    border-radius: 50%;
+}
+.border-blue {
+    border: 1px solid var(--blue-color);
+}
+.border-black {
+    border: 1px solid black;
+}
+.border-white {
+    border: 1px solid white;
+}
+/* End border */
+/* Start components */
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* End components */

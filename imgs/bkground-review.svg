@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="518px" viewBox="0 0 1000 518" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>section-bg/simple</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F4F6F8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="section-bg/simple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <polygon id="Rectangle-Copy-9" transform="translate(500.000000, 146.000000) scale(-1, 1) translate(-500.000000, -146.000000) " points="0 61.921875 1000 4.52768886e-13 1000 292 0 292"></polygon>
+        </g>
+    </g>
+</svg>
